@@ -1,0 +1,35 @@
+---
+title: "Script Documentation"
+author: "Adriana"
+output: html_document
+---
+
+# Purpose
+
+This script analyzes student grades and calculates summary statistics.
+
+# Inputs
+
+- grades.csv
+
+# Outputs
+
+- Mean grade
+- Summary statistics
+
+# Required Packages
+
+```r
+library(tidyverse)
+```
+
+# Example Code
+
+```r
+grades <- read.csv("grades.csv")
+mean(grades$Grade)
+```
+
+# Notes
+
+This script is intended for educational purposes.
